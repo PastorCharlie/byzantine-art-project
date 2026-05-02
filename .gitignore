@@ -1,0 +1,26 @@
+# Local Claude Code state
+.claude/
+.claude/settings.local.json
+
+# Raw working image cache — full-resolution downloads, regenerated on demand
+images/full/
+images/thumbnails/
+
+# Intermediate corpus-build notes (work product, not canonical corpus material)
+notes/batch-*-summary.md
+notes/resume-marker.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
